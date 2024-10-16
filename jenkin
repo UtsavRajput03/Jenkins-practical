@@ -23,7 +23,7 @@ pipeline {
                 echo 'Deploying the application...'
                 // Add your deployment commands here, e.g., for a Docker deployment:
                 // sh 'docker build -t myapp .'
-                // sh 'docker run -d -p 8080:8080 myapp'
+                // sh 'docker run -d -p 8090:8090 myapp'
             }
         }
     }
